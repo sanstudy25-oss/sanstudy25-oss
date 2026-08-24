@@ -2,7 +2,7 @@
 
 <img src="assets/santiago-neon.svg" alt="Santiago — letrero de neón rojo sobre una pared de callejón" width="100%"/>
 
-**bienvenido a mi callejón digital** 🚬🌃
+**Bienvenido a mi callejón digital, un pequeño espacio donde se aprende cada día** 🌃
 
 </div>
 
@@ -14,12 +14,10 @@
 ## 🧛 Sobre mí
 
 ```text
-🔭  Ahora mismo estoy trabajando en...   →  ✏️ escríbelo aquí
-🌱  Estoy aprendiendo...                 →  ✏️
-👯  Me gustaría colaborar en...          →  ✏️
-🤔  Busco ayuda con...                   →  ✏️
-💬  Pregúntame sobre...                  →  ✏️
-⚡  Dato curioso...                      →  ✏️
+🔭  Ahora mismo estoy estudiando en...   →  ✏️ SENA CSET
+🌱  Estoy aprendiendo...                 →  ✏️ Diseño Web y manejo de lenguajes básicos 
+👯  Me gustaría colaborar en...          →  ✏️ Manejo y diseño de Páginas llamativas e innovadoras
+⚡  Dato curioso...                      →  ✏️ Un buen guía aumenta mis ganas de aprender
 ```
 
 ## 🛠️ Tecnologías y herramientas
