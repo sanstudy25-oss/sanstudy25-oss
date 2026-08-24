@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-label="Santiago en letras de neón rojas sobre una pared de callejón">
+  <title>Santiago — letrero de neón</title>
+
+  <defs>
+    <!-- luz roja que derrama el letrero sobre la pared -->
+    <radialGradient id="spill" cx="50%" cy="45%" r="65%">
+      <stop offset="0%"   stop-color="#ff2030" stop-opacity="0.28"/>
+      <stop offset="55%"  stop-color="#b3000c" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- sombreado vertical de la pared -->
+    <linearGradient id="wallShade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#000000" stop-opacity="0.55"/>
+      <stop offset="35%"  stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.65"/>
+    </linearGradient>
+
+    <!-- viñeta oscura en los bordes -->
+    <radialGradient id="vig" cx="50%" cy="42%" r="75%">
+      <stop offset="60%"  stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.75"/>
+    </radialGradient>
+
+    <!-- pared de ladrillos del callejón -->
+    <pattern id="bricks" width="72" height="36" patternUnits="userSpaceOnUse">
+      <rect width="72" height="36" fill="#0c0d0f"/>
+      <rect width="72" height="18" fill="#0e0f12" opacity="0.6"/>
+      <path d="M0 0H72 M0 18H72 M0 36H72 M18 0V18 M54 0V18 M36 18V36"
+            stroke="#17181b" stroke-width="2" fill="none"/>
+    </pattern>
+
+    <!-- grano / suciedad de la pared -->
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.05 0"/>
+    </filter>
+
+    <!-- desenfoques para el resplandor del neón -->
+    <filter id="blurXL" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="14"/></filter>
+    <filter id="blurL"  x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="7"/></filter>
+    <filter id="blurS"  x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2.2"/></filter>
+  </defs>
+
+  <!-- fondo: pared del callejón -->
+  <rect width="900" height="420" fill="#050506"/>
+  <rect width="900" height="420" fill="url(#bricks)"/>
+  <rect width="900" height="420" filter="url(#grain)"/>
+  <rect width="900" height="420" fill="url(#wallShade)"/>
+
+  <!-- cable colgando del techo -->
+  <path d="M450 0 C446 30 454 70 450 112" stroke="#2a2c30" stroke-width="3" fill="none"/>
+  <circle cx="450" cy="115" r="5" fill="#3a3d42"/>
+
+  <!-- luz roja proyectada en la pared (parpadea con el letrero) -->
+  <ellipse cx="450" cy="200" rx="360" ry="170" fill="url(#spill)">
+    <animate attributeName="opacity" dur="7s" repeatCount="indefinite"
+      values="1;1;0.15;1;0.6;0.95;0.12;1;1;0.5;1;1"
+      keyTimes="0;0.05;0.055;0.08;0.105;0.13;0.135;0.16;0.45;0.46;0.485;1"/>
+  </ellipse>
+
+  <!-- viñeta -->
+  <rect width="900" height="420" fill="url(#vig)"/>
+
+  <!-- marco metálico del letrero -->
+  <g>
+    <animate attributeName="opacity" dur="7s" repeatCount="indefinite"
+      values="1;1;0.15;1;0.6;0.95;0.12;1;1;0.5;1;1"
+      keyTimes="0;0.05;0.055;0.08;0.105;0.13;0.135;0.16;0.45;0.46;0.485;1"/>
+    <rect x="118" y="118" width="664" height="164" rx="16" fill="none" stroke="#1f2125" stroke-width="5"/>
+    <circle cx="134" cy="134" r="3.5" fill="#34373c"/>
+    <circle cx="766" cy="134" r="3.5" fill="#34373c"/>
+    <circle cx="134" cy="266" r="3.5" fill="#34373c"/>
+    <circle cx="766" cy="266" r="3.5" fill="#34373c"/>
+  </g>
+
+  <!-- LETRERO DE NEÓN "SANTIAGO" -->
+  <g font-family="'Arial Black', Arial, Helvetica, sans-serif" font-weight="900"
+     font-size="88" text-anchor="middle" letter-spacing="3"
+     fill="none" stroke-linejoin="round" stroke-linecap="round">
+
+    <!-- parpadeo irregular: como si se apagara pero nunca muere del todo -->
+    <animate attributeName="opacity" dur="7s" repeatCount="indefinite"
+      values="1;1;0.1;1;0.55;0.95;0.06;1;1;0.4;1;1;0.7;1"
+      keyTimes="0;0.05;0.055;0.08;0.105;0.13;0.135;0.16;0.45;0.46;0.485;0.83;0.84;1"/>
+
+    <!-- halo exterior -->
+    <text x="450" y="231" stroke="#ff1020" stroke-width="16" opacity="0.9" filter="url(#blurXL)">SANTIAGO
+      <animate attributeName="opacity" dur="3.4s" repeatCount="indefinite"
+        values="0.85;1;0.8;1;0.85" keyTimes="0;0.25;0.5;0.75;1"/>
+    </text>
+    <!-- halo medio -->
+    <text x="450" y="231" stroke="#ff2b38" stroke-width="8" filter="url(#blurL)">SANTIAGO</text>
+    <!-- tubo de neón -->
+    <text x="450" y="231" stroke="#ff5a63" stroke-width="3.5" filter="url(#blurS)">SANTIAGO</text>
+    <!-- núcleo caliente del tubo -->
+    <text x="450" y="231" stroke="#ffe1e4" stroke-width="1.4">SANTIAGO</text>
+  </g>
+</svg>
