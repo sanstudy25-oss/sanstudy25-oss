@@ -24,16 +24,14 @@
 
 <!-- ✏️ borra las que no uses y agrega las tuyas. Lista completa: https://skillicons.dev -->
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,git,html,cssCdocker&perline=8" alt="tech stack"/>
+  <img src="https://skillicons.dev/icons?i=html,css,js&perline=8" alt="tech stack"/>
 </div>
 
 ## 📊 Mis estadísticas
 
 <div align="center">
-  <a href="https://github.com/sanstudy25-oss">
-    <img height="165" src="https://github-readme-stats-wine.vercel.app/api?username=sanstudy25-oss&show_icons=true&theme=dark&hide_border=true&bg_color=000000" alt="stats"/>
-    <img height="165" src="https://github-readme-stats-wine.vercel.app/api/top-langs/?username=sanstudy25-oss&layout=compact&theme=dark&hide_border=true&bg_color=000000" alt="langs"/>
-  </a>
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=TU_USUARIO&amp;show_icons=true&amp;theme=dark&amp;hide_border=true&amp;bg_color=000000" alt="stats"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TU_USUARIO&amp;layout=compact&amp;theme=dark&amp;hide_border=true&amp;bg_color=000000" alt="langs"/>
 </div>
 
 <!-- 🔒 opcional: racha de contribuciones — descomenta y pon tu usuario
