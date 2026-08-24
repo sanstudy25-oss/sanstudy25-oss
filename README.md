@@ -29,12 +29,11 @@
 
 ## 📊 Mis estadísticas
 
-<!-- ✏️ cambia TU_USUARIO por tu usuario real de GitHub (aparece 2 veces) -->
-## 📊 Mis estadísticas
-
 <div align="center">
-  <img height="165" src="https://github-readme-stats-gp3.vercel.app/api?username=sanstudy25-oss&show_icons=true&theme=dark&hide_border=true&bg_color=000000" alt="stats"/>
-  <img height="165" src="https://github-readme-stats-gp3.vercel.app/api/top-langs/?username=sanstudy25-oss&layout=compact&theme=dark&hide_border=true&bg_color=000000" alt="langs"/>
+  <a href="https://github.com/sanstudy25-oss">
+    <img height="165" src="https://github-readme-stats-wine.vercel.app/api?username=sanstudy25-oss&show_icons=true&theme=dark&hide_border=true&bg_color=000000" alt="stats"/>
+    <img height="165" src="https://github-readme-stats-wine.vercel.app/api/top-langs/?username=sanstudy25-oss&layout=compact&theme=dark&hide_border=true&bg_color=000000" alt="langs"/>
+  </a>
 </div>
 
 <!-- 🔒 opcional: racha de contribuciones — descomenta y pon tu usuario
