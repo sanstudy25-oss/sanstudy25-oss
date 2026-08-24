@@ -24,7 +24,7 @@
 
 <!-- ✏️ borra las que no uses y agrega las tuyas. Lista completa: https://skillicons.dev -->
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,ts,react,nodejs,git,linux,docker&perline=8" alt="tech stack"/>
+  <img src="https://skillicons.dev/icons?i=python,js,git,html,cssCdocker&perline=8" alt="tech stack"/>
 </div>
 
 ## 📊 Mis estadísticas
@@ -46,34 +46,7 @@
 <!-- ✏️ reemplaza los enlaces por los tuyos -->
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/TU-USUARIO)
-[![X / Twitter](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/TU-USUARIO)
-[![Correo](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hola@tucorreo.com)
+[![Correo](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:san.study25@gmail.com)
 [![Portafolio](https://img.shields.io/badge/Portafolio-222222?style=for-the-badge&logo=aboutdotme&logoColor=white)](#)
 
 </div>
-
----
-
-<details>
-<summary>💡 <b>¿Cómo convierto esto en mi perfil de GitHub?</b></summary>
-
-<br/>
-
-1. Crea un repositorio **nuevo** cuyo nombre sea **exactamente igual a tu usuario** de GitHub.
-   - Ejemplo: si tu usuario es `santi-dev`, el repo debe llamarse `santi-dev`.
-2. GitHub te mostrará un aviso: *"You found a secret! … this repo is special: it will appear on your profile"* ✅
-3. Sube estos archivos (`README.md` y la carpeta `assets/`) a ese repo.
-
-Comandos listos para usar desde esta carpeta:
-
-```bash
-git add .
-git commit -m "mi perfil neon"
-git remote add origin https://github.com/TU_USUARIO/TU_USUARIO.git
-git push -u origin main
-```
-
-🎨 **Personalizar el letrero:** abre `assets/santiago-neon.svg` y cambia la palabra `SANTIAGO` (aparece 4 veces, una por cada capa del efecto neón). El color se ajusta en los atributos `stroke`.
-
-</details>
