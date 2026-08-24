@@ -30,8 +30,8 @@
 ## 📊 Mis estadísticas
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=sanstudy25-oss&amp;show_icons=true&amp;theme=dark&amp;hide_border=true&amp;bg_color=000000" alt="stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sanstudy25-oss&amp;layout=compact&amp;theme=dark&amp;hide_border=true&amp;bg_color=000000" alt="langs"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=sanstudy25-oss&show_icons=true&theme=dark&hide_border=true&bg_color=000000" alt="stats"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sanstudy25-oss&layout=compact&theme=dark&hide_border=true&bg_color=000000" alt="langs"/>
 </div>
 
 <!-- 🔒 opcional: racha de contribuciones — descomenta y pon tu usuario
